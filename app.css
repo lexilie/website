@@ -1,0 +1,184 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    box-sizing: border-box;
+    background: #03031c;
+}
+
+
+/* --- aboutme */
+#particles-js {
+    height: 100%;
+    background: #03031c;
+    color: white;
+    position: relative;
+}
+
+
+
+#container1 {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    top: 50%;
+    transform: translate(0, -50%);
+    z-index: 5;
+
+}
+
+
+#pic1 {
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 30%;
+    /* padding: auto; */
+}
+
+/* --- project */
+
+
+
+.projects h2 {
+    font-size: 300%;
+    margin: 2em;
+    color: white;
+
+}
+
+.projects p {
+    font-size: 100%;
+    line-height: 130%;
+    max-width: 50ch;
+    color: #686880;
+}
+
+.projects__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+.projects__card {
+    max-width: 350px;
+    padding: 20px;
+    border: 2px solid #6d2f90;
+    border-radius: 8px;
+}
+
+.projects__card h3 {
+    font-size: 250%;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: grey;
+    font-family: 'Cinzel', serif;
+    font-family: 'Combo', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.projects__card p {
+    font-size: 110%;
+    margin: 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.projects__card img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0 10px;
+    border-radius: 8px;
+}
+
+.projects__card .button {
+    background-color: white;
+    color: grey;
+    font-weight: 600;
+
+
+}
+
+.projects__card .button:hover {
+    background-color: rgb(56, 13, 90);
+}
+
+
+/* --achievement */
+
+.s2sub {
+    margin-top: 7em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.s2t {
+    background-color: white;
+    /* Green */
+    border: none;
+    color: 1c1c33;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0.5em;
+    font-weight: 900;
+    font-size: 112%;
+    font-family: 'Cinzel', serif;
+    font-family: 'Combo', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+
+
+}
+
+.s2h1 {
+    color: white;
+    margin: 0.5em 0 0.5em 0;
+    font-size: 350%;
+    font-family: 'Cinzel', serif;
+    font-family: 'Combo', cursive;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Londrina Outline', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.s2p {
+    color: grey;
+    font-size: 112%;
+    font-weight: 500;
+
+}
+
+
+
+.s2pic {
+    border-radius: 3em;
+}
+
+#s2pic1 {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 3em 3em 3em 3em;
+}
