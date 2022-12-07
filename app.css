@@ -59,6 +59,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 3em;
+    
 }
 
 .projects__card {
